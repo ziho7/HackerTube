@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>黑客tube</title>
+<meta name="description" content="Hacker News 上大家互相推荐的那些 YouTube 视频。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23ff6600'/%3E%3Ctext x='16' y='23.5' text-anchor='middle' font-family='PingFang SC,Hiragino Sans GB,sans-serif' font-weight='700' font-size='19' fill='white'%3E黑%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/app.css">
+
+<body>
+<a class="skip-link" href="#main">跳转到内容</a>
+<header class="top">
+  <div class="left">
+    <button class="icon" id="menu" aria-label="菜单" title="菜单" aria-controls="side" aria-expanded="true"></button>
+    <a class="brand" href="#/" aria-label="黑客tube 首页"><span class="word">黑客</span><span class="word"><b>tube</b></span></a>
+  </div>
+  <form class="search" id="search-form" role="search">
+    <input id="q" type="search" placeholder="搜索视频、主题或创作者" aria-label="搜索视频、主题或创作者" autocomplete="off" spellcheck="false">
+    <button type="submit" aria-label="搜索"></button>
+  </form>
+  <div class="right">
+    <a class="icon" href="#/about" id="about-link" aria-label="关于黑客tube" title="关于"></a>
+    <button class="icon" id="theme" aria-label="切换主题" title="切换主题"></button>
+  </div>
+</header>
+
+<nav class="side" id="side" aria-label="主导航"></nav>
+<div class="scrim" id="scrim"></div>
+
+<main id="main" tabindex="-1"></main>
+<noscript><p>请启用 JavaScript 以浏览和搜索视频。</p></noscript>
+
+<dialog class="help" id="help" aria-labelledby="help-title">
+  <div class="help-card">
+    <button id="help-close" class="icon help-close" aria-label="关闭快捷键">✕</button>
+    <h3 id="help-title">键盘快捷键</h3>
+    <table id="help-rows"></table>
+  </div>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/store.js"></script>
+<script src="js/data.js"></script>
+<script src="data/meta.js"></script>
+<script src="data/taxonomy.js"></script>
+<script src="data/playlists.js"></script>
+<script src="data/videos.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/render.js"></script>
+<script src="js/pages.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

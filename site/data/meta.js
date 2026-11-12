@@ -1,0 +1,1 @@
+HT_DATA.load("meta", {"generatedAt":"2026-11-12","source":"HackerTube 官方数据集（2026-10-31 导出）","translatedCount":6454,"videoCount":6454,"mentionCount":39834,"shardCount":64,"hasYouTubeMeta":false,"areas":16,"categories":150,"yearSpan":[2007,2026]});

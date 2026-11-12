@@ -1,0 +1,3 @@
+Data from HackerTube (https://hackertube.org) and open-index/hacker-news (https://huggingface.co/datasets/open-index/hacker-news), ODC-By 1.0.
+License: https://opendatacommons.org/licenses/by/1-0/
+Chinese translations and JS indexes are derived data. Comments and video content remain the work of their authors.
